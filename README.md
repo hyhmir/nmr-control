@@ -1,6 +1,6 @@
 # NMR CONTROL APP
 
-This app was created for the needs of NMR users at Institut "Jožef Štefan". It is an extension of Tecmag's propiotery software that comes packaged with thier Redstone hardware. The app's purpose is to emulate the old software they used at the Institute with the old hardware. It also integrates the control of Oxford Instrument's MercuryITC and MercuryIPS, this part is slightly unstable but the app functions even without them.
+This app was created for the needs of NMR users at Institut "Jožef Štefan". It is an extension of Tecmag's proprietary software that comes packaged with thier Redstone hardware. The app's purpose is to emulate the old software they used at the Institute with the old hardware. It also integrates the control of Oxford Instrument's MercuryITC and MercuryIPS, this part is slightly unstable but the app functions even without them.
 
 ## installing 💻
 
