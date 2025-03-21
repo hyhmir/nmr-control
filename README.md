@@ -8,7 +8,7 @@ I'll tell you how to install this once i figure it out 🫨
 
 ## license 🔐
 
-This software is licensed under the MIT license. Read more at [LICENSE](LICENSE).
+This software was licensed under the MIT license but it had to be changed to GNU GENERAL PUBLIC LICENSE. Read more at [LICENSE](LICENSE).
 
 ## cooperation
 
