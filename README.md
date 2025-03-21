@@ -4,7 +4,11 @@ This app was created for the needs of NMR users at Institut "Jožef Štefan". It
 
 ## installing 💻
 
+I'll tell you how to install this once i figure it out 🫨
+
 ## license 🔐
+
+This software is licensed under the MIT license. Read more at [LICENSE](LICENSE).
 
 ## cooperation
 
