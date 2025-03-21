@@ -1,0 +1,1 @@
+folder containing the pulse sequences. Those need to be edited in tnmr software, saved in this folder and, if you want them to be written in your experiment results, you need to export the sequence as a text file and save it to exports subfolder. some examples are included for reference.
