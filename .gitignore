@@ -1,3 +1,5 @@
 /garbage
 /__pycache__
-/exp
+exp/*.dat
+*.pyc
+*.log
