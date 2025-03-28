@@ -7,6 +7,7 @@ import subprocess
 from tmag.tecmag import Tecmag
 from maingui.main import NMR_GUI
 
+# testing something
 
 
 if __name__ == "__main__":
