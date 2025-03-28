@@ -4,16 +4,16 @@
 
 # import everything necessary
 import subprocess
-from tmag.tecmag import Tecmag
-from maingui.main import NMR_GUI
+import tmag
+import maingui
 
 # testing something
 
 
 if __name__ == "__main__":
-    tecmag = Tecmag()
+    tecmag = tmag.tecmag.Tecmag()
     tecmag.Parameter_setup()
-    gui = NMR_GUI(tecmag)
+    gui = maingui.main.NMR_GUI(tecmag)
     gui.mainloop()
     tecmag.app.Abort
     tecmag.app.CloseActiveFile
