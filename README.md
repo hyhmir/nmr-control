@@ -4,7 +4,25 @@ This app was created for the needs of NMR users at Institut "Jožef Štefan". It
 
 ## installing 💻
 
-I'll tell you how to install this once i figure it out 🫨
+- Python 3.8+
+- pip 20.0+
+- TNMR by Tecmag
+
+### Set-up
+
+```bash
+git clone https://github.com/hyhmir/nmr-control.git
+cd nmr-control
+pip install -r requirements.txt
+```
+
+To run navigate to the nmr-control folder and run
+
+```bash
+python main.py
+```
+
+or alternatively open the folder in VS Code and run the main.py from there.
 
 ## license 🔐
 
