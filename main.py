@@ -4,8 +4,8 @@
 
 # import everything necessary
 import subprocess
-from tmag import Tecmag
-from maingui import NMR_GUI
+from tmag.tecmag import Tecmag
+from maingui.main import NMR_GUI
 
 
 
