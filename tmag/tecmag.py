@@ -10,12 +10,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 from comtypes.client import CreateObject, GetActiveObject
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
-from maingui import No_Sffx, To_Cpx, ReSize, BaselineCorr, LeftShift, MEAS_LOOP_TIME
+#from maingui import No_Sffx, To_Cpx, ReSize, BaselineCorr, LeftShift
 import tkinter as tk
 import os
 
 # Refresh clock - can be set for quicker or slower refresh rate
-# MEAS_LOOP_TIME = 0.1
+MEAS_LOOP_TIME = 0.1
 dataylim = -100
 dataYLIM = 100
 

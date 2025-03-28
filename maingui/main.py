@@ -14,7 +14,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.backends._backend_tk import NavigationToolbar2Tk
 import os
 import tkinter.messagebox as msgbox
-from tmag import Tecmag
+#from tmag import Tecmag
 from maingui.func import *
 from pytnt import TNTfile
 from comtypes.client import CreateObject, GetActiveObject
@@ -34,14 +34,14 @@ dataYLIM = 100
 fourierylim = -20000
 fourierYLIM = 20000
 
-class NMR_GUI(tk.Tk, Tecmag):
+class NMR_GUI(tk.Tk):
     '''Class for controling graphic user interface'''
-    def __init__(self, tecmag, tmag):
+    def __init__(self, tecmag):
         '''Initializes default GUI layout and inserts deafault parameters'''
         super().__init__()
         
         self.tecmag = tecmag
-        self.tmag = tmag
+        #self.tmag = tmag
         self.title("NMR Experiment Control")
         self.nsc = tecmag.nsc
         self.stevc = 1

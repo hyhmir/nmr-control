@@ -12,7 +12,7 @@ from maingui import NMR_GUI
 if __name__ == "__main__":
     tecmag = Tecmag()
     tecmag.Parameter_setup()
-    gui = NMR_GUI(tecmag, tecmag)
+    gui = NMR_GUI(tecmag)
     gui.mainloop()
     tecmag.app.Abort
     tecmag.app.CloseActiveFile
