@@ -324,7 +324,8 @@ class NMR_GUI(tk.Tk):
 
 ####################################################################################################################
 # Tab 9 - Automatisation
-        dirlist = os.listdir(os.path.dirname(os.path.realpath(__file__)) + '\\skripte')
+        # dirlist = os.listdir(os.path.dirname(os.path.realpath(__file__)) + '\\skripte')
+        dirlist = os.listdir(os.getcwd() + '\\skripte')
         self.izberi = tk.Listbox(self.tab9, selectmode=tk.SINGLE, height=5)
         for name in dirlist:
             if name != '__init__.py' and name != '__pycache__':
