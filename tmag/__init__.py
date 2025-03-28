@@ -2,8 +2,8 @@
 
 print('importing the tmag module')
 
-import tmag.tmag
+import tmag.tecmag
 
 __all__ = [
-    'tmag'
+    'tecmag'
 ]
